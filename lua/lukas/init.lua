@@ -1,5 +1,6 @@
 require("lukas.set")
 require("lukas.remap")
+require("lukas.packer")
 
 local augroup = vim.api.nvim_create_augroup
 local ThePrimeagenGroup = augroup('ThePrimeagen', {})
